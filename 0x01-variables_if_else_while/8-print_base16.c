@@ -8,15 +8,13 @@
 */
 int main(void)
 {
-	int x = 48;
+	int x = 48 ,n = 97;
 
 	while (x <= 57)
 	{
 		putchar(x);
 		x++;
 	}
-	int n = 97;
-
 	while (n <= 102)
 	{
 		putchar(n);
