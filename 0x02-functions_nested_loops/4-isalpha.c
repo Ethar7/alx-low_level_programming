@@ -18,4 +18,7 @@ int _isalpha(int x)
 	{
 		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
