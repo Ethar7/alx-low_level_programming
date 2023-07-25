@@ -31,13 +31,13 @@ void times_table(void)
 				_putchar((pro % 10) + '0');
 				if (i >= 2 && j == 9)
 				{
-					_putchar(' '); 
-			    
+					_putchar(' ');
+
 				}
 				else
 				{
 					_putchar(',');
-					_putchar(' '); 
+					_putchar(' ');
 				}
 			}
 		}
