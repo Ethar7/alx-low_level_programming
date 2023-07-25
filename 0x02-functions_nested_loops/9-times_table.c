@@ -27,7 +27,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar((pro \ (10)) + '0');
+				_putchar((pro / 10) + '0');
 				_putchar((pro % 10) + '0');
 				if (i >= 2 && j == 9)
 				{
