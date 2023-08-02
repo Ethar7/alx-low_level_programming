@@ -21,6 +21,7 @@ void print_times_table(int n)
 					if (p <= 9)
 					{
 						_putchar(' ');
+						_putchar(' ');
 						_putchar(p + 48);
 					}
 					else if (p >= 10 && p <= 99)
