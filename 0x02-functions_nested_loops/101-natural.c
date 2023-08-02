@@ -18,7 +18,7 @@ int main(void)
 		}
 	}
 	printf("%d", s);
-	_putchar ('\n');
+	printf("\n");
 	return (0);
 }
 
