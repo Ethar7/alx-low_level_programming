@@ -8,19 +8,16 @@
 #include "main.h"
 int main(void)
 {
-	int i;
+	int i, s;
 
 	for (i = 3; i < 1024; i++)
 	{
 		if (i % 5 == 0 || i % 3 == 0)
 		{
-		printf("%d", i);
-			if (i != 1023)
-			{
-			printf(",");
-			}
+			s+=n;
 		}
 	}
+	printf("%d", s);
 	_putchar ('\n');
 	return (0);
 }
