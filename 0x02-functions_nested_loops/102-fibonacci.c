@@ -8,12 +8,12 @@
 */
 int main(void)
 {
-	int yf, i, x1 = 0, x2 = 1;
+	long yf, i, x1 = 0, x2 = 1;
 
 	for (i = 0; i < 50; i++)
 	{
 		yf = x1 + x2;
-		printf("%u", yf);
+		printf("%ul", yf);
 		x1 = x2;
 		x2 = yf;
 		if (i == 49)
