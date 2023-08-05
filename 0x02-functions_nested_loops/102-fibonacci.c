@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-	long yf, i, x1 = 0, x2 = 1;
+	unsigned long yf, i, x1 = 0, x2 = 1;
 
 	for (i = 0; i < 50; i++)
 	{
