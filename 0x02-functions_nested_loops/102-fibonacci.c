@@ -13,7 +13,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		yf = x1 + x2;
-		printf("%ul", yf);
+		printf("%lu", yf);
 		x1 = x2;
 		x2 = yf;
 		if (i == 49)
