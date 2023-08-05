@@ -18,12 +18,12 @@ int main(void)
 		{
 			break;
 		}
-		else if (yf % 2 ==0)
+		else if ((yf % 2) == 0)
 		{
 			s += yf;
-			x1 = x2;
-			x2 = yf;
 		}
+		x1 = x2;
+		x2 = yf;
 	}
 	printf ("%.0f\n", s);
 	return (0);
