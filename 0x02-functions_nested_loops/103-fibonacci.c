@@ -25,6 +25,6 @@ int main(void)
 		x1 = x2;
 		x2 = yf;
 	}
-	printf ("%.0f\n", s);
+	printf("%.0f\n", s);
 	return (0);
 }
