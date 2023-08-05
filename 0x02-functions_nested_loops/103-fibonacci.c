@@ -8,10 +8,10 @@
 */
 int main(void)
 {
-	unsigned long yf, i, x1 = 0, x2 = 1;
+	unsigned long yf, x1 = 0, x2 = 1;
 	float s;
 
-	while (true)
+	while (1)
 	{
 		yf = x1 + x2;
 		if (yf > 4000000)
