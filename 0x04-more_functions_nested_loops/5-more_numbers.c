@@ -3,7 +3,7 @@
  * more_numbers - function that prints numbers from 1 to 14
 */
 void more_numbers(void)
-{       
+{
 	int i, j, k = 0;
 
 	for (i = 1; i <= 10; i++)
