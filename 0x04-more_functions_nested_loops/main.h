@@ -25,5 +25,6 @@ void print_to_98(int n);
 void print_times_table(int n);
 void print_line(int n);
 void print_diagonal(int n);
+void print_square(int size);
 
 #endif
