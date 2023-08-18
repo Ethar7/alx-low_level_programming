@@ -4,8 +4,7 @@
  *
  * @s: is a pointer that points to a var
  *
- * @count: counter on the string
- *
+ * Return: return lenght
 */
 int _strlen(char *s)
 {
