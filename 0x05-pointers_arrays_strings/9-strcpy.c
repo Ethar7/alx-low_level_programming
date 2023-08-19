@@ -2,7 +2,7 @@
 /**
  * *_strcpy - afunctin tha copies a string
  *
- * @str: char type string
+ * @src: char type string
  * @dest: char type string
  *
  * Description: function that prints string
@@ -13,9 +13,9 @@ char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
-	while (scr[i] != '\0')
+	while (src[i] != '\0')
 	{
-		dest[i] = scr[i];
+		dest[i] = src[i];
 		i++;
 	}
 	return (dest);
