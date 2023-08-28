@@ -1,4 +1,4 @@
-#include "lists"
+#include "lists.h"
 /**
  * list_len - determines length of linked list
  * @h: pointer to first node
