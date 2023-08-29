@@ -9,6 +9,7 @@
 void _puts(char *str)
 {
 	int i = 0;
+
 	while (str[i])
 	{
 		_putchar(str[i]);
@@ -51,7 +52,7 @@ int _atoi(const char *s)
 void print_int(unsigned long int n)
 {
 	unsigned long int divisor = 1, i, resp;
-	
+
 	for (i = 0; n / divisor > 9; i++, divisor *= 10)
 	;
 
@@ -66,7 +67,7 @@ void print_int(unsigned long int n)
  *
  * @argc: int
  * @argv: int
- * 
+ *
  * Return: 0
 */
 
