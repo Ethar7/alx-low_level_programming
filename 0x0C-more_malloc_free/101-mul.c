@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 		_puts("Error");
 		exit(98);
 	}
-	printf_int(_atoi(argv[1]) * _atoi(argv[2]));
+	print_int(_atoi(argv[1]) * _atoi(argv[2]));
 	_putchar('\n');
 
 	return (0);
