@@ -2,7 +2,7 @@
 /**
  * get_nodeint_at_index - returns node
  * @head: pointer to first node
- * @index: index of node
+ * @unsigned int index: int
  *
  * Return: pointer of node
 */
