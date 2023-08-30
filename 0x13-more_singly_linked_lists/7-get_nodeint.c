@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * get_nodeint_at_index - returns node at index
+ *  Description: returns node
  *
  * @head: pointer to first node
  * @index: index of node
