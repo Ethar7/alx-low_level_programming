@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * Description: reterns node
+ * Description: returns node
  *
  * @head: pointer to first node
  * @index: index of node
