@@ -1,2 +1,20 @@
-#include "list.h"
+#include "lists.h"
+/**
+ * sum_listint - returns sum
+ *
+ * @head: point to first
+ *
+ * Return: sum
+*/
+int sum_listint(listint_t *head)
+{	
+	int sum = 0;
+	while (head)
+	{
+		sum += head->n;
+		head = head->next;
+	}
+	return (sum);
+}
+
 
