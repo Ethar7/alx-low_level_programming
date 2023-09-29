@@ -1,6 +1,10 @@
 #include "main.h"
 /**
-
+ * factorial - factorial
+ *
+ * @n: input
+ *
+ * Return: factorial
 */
 
 
