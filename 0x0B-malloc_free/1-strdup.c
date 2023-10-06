@@ -2,7 +2,7 @@
 
 
 /**
- * _strdup - function that prints a copy 
+ * _strdup - function that prints a copy
  *
  * @str: string
  *
@@ -18,7 +18,9 @@ char *_strdup(char *str)
 		;
 	m = malloc(size * sizeof(*str) + 1);
 	if (str == NULL || m == 0)
+	{
 		return (NULL);
+	}
 	else
 	{
 		for (i = 0; i < size; i++)
