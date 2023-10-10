@@ -1,5 +1,4 @@
 #include "main.h"
-#include "main.h"
 
 /**
  * string_nconcat - string concatnate
