@@ -32,7 +32,7 @@ int string_length(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	usigned int i, j, str_l1, str_l2;
+	unsigned int i, j, str_l1, str_l2;
 
 	if (s1 == NULL)
 		s1 = "";
@@ -45,7 +45,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	ptr = malloc(s1 + n + 1);
 	if (ptr == NULL)
 		return (NULL);
-	for (i =0; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		ptr[i] = s1[i];
 	for (j = 0; s2[i] < n; j++)
 	{
