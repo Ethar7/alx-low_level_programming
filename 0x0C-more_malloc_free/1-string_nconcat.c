@@ -2,23 +2,6 @@
 #include "main.h"
 
 /**
- * string_length - string length
- *
- * @s: string
- *
- * Return: size
-*/
-int string_length(char *s)
-{
-	int size = 0;
-
-	while (s[size] != '\0')
-	{
-		size++;
-	}
-	return (size);
-}
-/**
  * string_nconcat - string concatnate
  *
  * @s1: first string
@@ -38,10 +21,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	else if (s2 == NULL)
 		s2 = "";
-
-	str_l1 = string_length(s1);
-	str_l2 = string_length(s2);
-
+	for (str_l1 = 0; str_l1 != '\0'; str_l1++)
+		;
+	for (str_l2 = 0; str_l2 != '\0'; str_l2++)
+		;
 	ptr = malloc(s1 + n + 1);
 	if (ptr == NULL)
 		return (NULL);
