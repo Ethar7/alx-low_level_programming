@@ -31,11 +31,11 @@ void *_calloc(unsigned int nmemb, unsigned int size)
  *
  * Return: pointer
 */
-char *_memset(char *s, char b; unsigned int n)
+char *_memset(char *x, char y; unsigned int n)
 {
-	char *ptr = s;
+	char *ptr = x;
 	
 	while (n--)
-		*s++ = b;
+		*x++ = y;
 	return (ptr);
 }
