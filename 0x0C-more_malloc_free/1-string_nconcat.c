@@ -20,9 +20,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = "";
 	else if (s2 == NULL)
 		s2 = "";
-	for (str_l1 = 0; str_l1 != '\0'; str_l1++)
+	for (str_l1 = 0; s1[str_l1] != '\0'; str_l1++)
 		;
-	for (str_l2 = 0; str_l2 != '\0'; str_l2++)
+	for (str_l2 = 0; s2[str_l2] != '\0'; str_l2++)
 		;
 	ptr = malloc(str_l1 + n + 1);
 	if (ptr == NULL)
