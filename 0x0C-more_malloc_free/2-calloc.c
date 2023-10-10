@@ -1,4 +1,23 @@
 #include "main.h"
+/** 
+ * _memset - function used to fill memory
+ *
+ * @x: constant
+ * @y: constant
+ * @n: max byte used
+ *
+ * Return: pointer
+*/
+char *_memset(char *x, char y; unsigned int n)
+{
+	char *ptr = x;
+
+	while (n--)
+		*x++ = y;
+	return (ptr);
+}
+
+
 /**
  * _calloc - allocates memory for an array, using malloc
  *
@@ -21,21 +40,4 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	_memset(m, 0, sizeof(int) * nmemb);
 	return (m);
-}
-/** 
- * _memset - function used to fill memory
- *
- * @x: constant
- * @y: constant
- * @n: max byte used
- *
- * Return: pointer
-*/
-char *_memset(char *x, char y; unsigned int n)
-{
-	char *ptr = x;
-	
-	while (n--)
-		*x++ = y;
-	return (ptr);
 }
