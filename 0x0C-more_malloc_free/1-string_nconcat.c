@@ -32,12 +32,12 @@ int string_length(char *s)
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int str_l1, str_l2;
+	int i, j, str_l1, str_l2;
 
 	if (s1 == NULL)
 		s1 = "";
 	else if (s2 == NULL)
-		s2 == "";
+		s2 = "";
 
 	str_l1 = string_length(s1);
 	str_l2 = string_length(s2);
