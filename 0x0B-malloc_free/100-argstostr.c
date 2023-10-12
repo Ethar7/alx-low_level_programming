@@ -35,12 +35,12 @@ char *argstostr(int ac, char **av)
 		y += string_len(av[x]);
 	ptr = malloc(sizeof(char) * y + 1);
 
-	if (ptr = 0)
+	if (ptr == 0)
 		return (NULL);
 
 	for (x = 0; x < ac; x++)
 	{
-		for (z = 0; av[i][z] != '\0'; z++, l++)
+		for (z = 0; av[x][z] != '\0'; z++, l++)
 			ptr[l] = av[x][z];
 		ptr[l] = '\n';
 	}
