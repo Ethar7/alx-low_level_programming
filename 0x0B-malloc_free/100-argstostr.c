@@ -25,7 +25,7 @@ int string_len(char *s)
 */
 char *argstostr(int ac, char **av)
 {
-	int x ,y, z, l;
+	int x, y, z, l;
 	char *ptr;
 
 	if (ac == 0 || av == 0)
@@ -46,5 +46,5 @@ char *argstostr(int ac, char **av)
 	l++;
 	}
 	ptr[l] = '\0';
-	return(ptr);
+	return (ptr);
 }
