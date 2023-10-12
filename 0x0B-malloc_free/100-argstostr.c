@@ -43,8 +43,8 @@ char *argstostr(int ac, char **av)
 		for (z = 0; av[x][z] != '\0'; z++, l++)
 			ptr[l] = av[x][z];
 		ptr[l] = '\n';
-	ptr[l] = '\0';
 	l++;
 	}
+	ptr[l] = '\0';
 	return(ptr);
 }
