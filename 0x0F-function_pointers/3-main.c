@@ -22,6 +22,6 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(98);
 	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
 		printf("Error\n"), exit(100);
-	printf("%d\n", op_func(a,b));
+	printf("%d\n", op_func(a, b));
 	return (0);
 }
