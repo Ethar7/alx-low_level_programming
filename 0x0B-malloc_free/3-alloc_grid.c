@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * alloc_grid - function that print two dimentional array 
+ * alloc_grid - function that print two dimentional array
  *
  * @width: width
  * @height: height
@@ -23,7 +23,7 @@ int **alloc_grid(int width, int height)
 		for (i = 0; i < height; i++)
 		{
 			ptr[i] = malloc(sizeof(**ptr) * width);
-			while(i--)
+			while (i--)
 			if (ptr[i] == 0)
 				free(ptr[i]);
 			free(ptr);
