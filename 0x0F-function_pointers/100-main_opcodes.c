@@ -1,6 +1,6 @@
 #include "function_pointers.h"
 #include <stdlib.h>
-#iclude <stdio.h>
+#include <stdio.h>
 /**
  * main - check the code
  * @argc: the number of args
