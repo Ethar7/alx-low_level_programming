@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * _memset - function used to fill memory
  *
  * @x: constant
