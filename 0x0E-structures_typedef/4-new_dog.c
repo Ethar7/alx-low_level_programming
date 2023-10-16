@@ -14,7 +14,7 @@ char *string_copy(char *s, char *copy_s)
 
 	while (s[i])
 	{
-		s[i] = copy_s[i];
+		copy_s[i] = s[i];
 		i++;
 	}
 	copy_s[i] = '\0';
