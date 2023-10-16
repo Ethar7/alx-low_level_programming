@@ -27,11 +27,11 @@ char *string_copy(char *s, char *copy_s)
  *
  * Return: length
 */
-int string_length(const char *s)
+int string_length(char *s)
 {
 	int size = 0;
 
-	while (*s++)
+	while (s[i] != '\0'S)
 		size++;
 	return (size);
 }
