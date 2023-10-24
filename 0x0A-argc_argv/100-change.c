@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 				least_money += money / unlimeted_cents[i];
 				money % unlimeted_cents[i];
 
-				if (money % unlimeted_cents == 0)
+				if (money % unlimeted_cents[i] == 0)
 					break;
 			}
 		}
@@ -29,7 +29,8 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		printf("Error\n", return (1));
+		printf("Error\n");
+		return (1);
 	}
 	return (0);
 }
