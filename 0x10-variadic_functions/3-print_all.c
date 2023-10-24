@@ -46,6 +46,11 @@ void format_string(char *separator, va_list ap)
 
         printf("%s%s", separator, str);
 }
+/**
+ * print_all - print adll
+ *
+ * @format: format
+*/
 void print_all(const char * const format, ...)
 {
 	int i = 0, j;
