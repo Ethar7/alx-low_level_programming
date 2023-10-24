@@ -31,7 +31,7 @@ int string_length(const char *s)
 {
 	int size = 0;
 
-	while (*s++)
+	while (s[size] != '\0')
 		size++;
 	return (size);
 }
