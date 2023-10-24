@@ -16,15 +16,13 @@ int main(int argc, char *argv[])
 
 		for (i = 0; i < 5; i++)
 		{
-			if (money <= unlimeted_cents[i])
+			if (money >= unlimeted_cents[i])
 			{
 				least_money += money / unlimeted_cents[i];
 				money = money % unlimeted_cents[i];
 
 				if (money % unlimeted_cents[i] == 0)
-				{
 					break;
-				}
 			}
 		}
 		printf("%d\n", least_money);
