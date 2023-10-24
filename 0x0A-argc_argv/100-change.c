@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 			if (money <= unlimeted_cents[i])
 			{
 				least_money += money / unlimeted_cents[i];
-				money % unlimeted_cents[i];
+				money = money % unlimeted_cents[i];
 
 				if (money % unlimeted_cents[i] == 0)
 					break;
