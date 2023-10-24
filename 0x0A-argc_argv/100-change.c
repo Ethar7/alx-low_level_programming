@@ -22,7 +22,9 @@ int main(int argc, char *argv[])
 				money = money % unlimeted_cents[i];
 
 				if (money % unlimeted_cents[i] == 0)
+				{
 					break;
+				}
 			}
 		}
 		printf("%d\n", least_money);
