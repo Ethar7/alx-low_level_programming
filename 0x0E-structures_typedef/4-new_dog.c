@@ -8,7 +8,7 @@
  *
  * Return: array
 */
-char *string_copy(char *s, char *copy_s)
+char *string_copy(char *copy_s, char *s)
 {
 	int i = 0;
 
