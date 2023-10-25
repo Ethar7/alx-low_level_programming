@@ -14,11 +14,11 @@
  * Description: singly linked lists for holeberton
 */
 
-typedef struct listsint_s
+typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
-} listsint_t;
+} listint_t;
 
 int _putchar(char c);
 size_t print_listint(const listint_t *h);
