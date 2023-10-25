@@ -3,7 +3,7 @@
 /**
  * print_listint - prints alinked lists
  * @h: pointer to first node
- * 
+ *
  * Return: size of list
 */
 
