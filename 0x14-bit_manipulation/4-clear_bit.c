@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * clear_bits - clear
+ * clear_bit - clear
  * @n: num
  * @index: index
  *
@@ -9,7 +9,7 @@
 int clear_bit(unsigned long int *n, unsigned int index)
 {
 	if (index >= sizeof(n) * 8)
-		return (-10);
+		return (-1);
 	
 	if (*n & 1L << index)
 		*n ^= 1L << index;
