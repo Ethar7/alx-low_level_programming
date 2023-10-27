@@ -17,22 +17,22 @@ int main(void)
 		{
 			if (digit1 != digit2)
 			{
-				_putchar((digit1 / 10) + '0');
-				_putchar((digit1 % 10) + '0');
-				_putchar(' ');
-				_putchar((digit2 / 10) + '0');
-				_putchar((digit2 % 10) + '0');
+				putchar((digit1 / 10) + '0');
+				putchar((digit1 % 10) + '0');
+				putchar(' ');
+				putchar((digit2 / 10) + '0');
+				putchar((digit2 % 10) + '0');
 				if (digit1 != 98 || digit2 != 99)
 				{
-					_putchar(',');
-					_putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 			digit2++;
 		}
 		digit1++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
 
