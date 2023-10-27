@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * flib_bits - return num of bits
+ * flip_bits - return num of bits
  *
  * @n: first
  * @m: second
