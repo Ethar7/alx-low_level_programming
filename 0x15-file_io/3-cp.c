@@ -1,6 +1,4 @@
 #include "main.h"
-#define _GNU_SOURCE
-#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #define USAGE "Usage: cp file_from file_to\n"
 #define ERR_NOREAD "Error: Error: Can't read from file %s\n"
