@@ -16,7 +16,7 @@
 */
 int main(int ac, char **av)
 {
-	int from_fd = 0, to_ fd = 0;
+	int from_fd = 0, to_fd = 0;
 	ssize_t b;
 	char buf[READ_BUF_SIZE];
 
