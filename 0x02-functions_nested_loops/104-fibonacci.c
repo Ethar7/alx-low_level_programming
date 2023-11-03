@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entery point
- * 
+ *
  * Description: print fabonancci numbers to 98
  *
  * Return: fabonancci
@@ -20,7 +20,7 @@ int main(void)
 	fb2 = sum;
 	if (c == 97)
 		printf("\n");
-	else 
+	else
 		printf(",");
 	}
 	return (0);
