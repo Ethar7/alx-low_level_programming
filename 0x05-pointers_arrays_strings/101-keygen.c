@@ -12,12 +12,12 @@ int main (void)
         char c;
         
         srand(time(NULL));
-        while (sum <= 2645)// random to this num
+        while (sum <= 2645)
         {
-                c = rand() % 128; //insure c in range of ascii characters 0 - 127
+                c = rand() % 128; 
                 sum += c;
                 putchar(c);
         }
-        putchar(2772 - sum);//this range of sum + 127 = 2772
+        putchar(2772 - sum);
         return (0);
 }
