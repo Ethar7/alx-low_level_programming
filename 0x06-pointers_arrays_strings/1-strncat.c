@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * *_strncat - function returns concat with n size of src 
+ * *_strncat - function returns concat with n size of src
  *
  * @src: source
  * @dest:string
+ * @n:size
  *
  * Return: dest
 */
@@ -19,4 +20,3 @@ char *_strncat(char *dest, char *src, int n)
 
 	return (dest);
 }
-		
