@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcmp - function that compare two strings 
+ * _strcmp - function that compare two strings
  *
- * @*s1: pointer to a string
- * @*s2: pointer to a string
+ * @s1: pointer to a string
+ * @s2: pointer to a string
  *
  * Return: x
 */
@@ -18,8 +18,8 @@ int _strcmp(char *s1, char *s2)
 			x = ((int)*s1 - 48) - ((int)*s2 - 48);
 			break;
 		}
-		*s1++;
-		*s2++;
+		s1++;
+		s2++;
 	}
 	return (x);
 }
