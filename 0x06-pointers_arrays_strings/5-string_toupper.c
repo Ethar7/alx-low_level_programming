@@ -3,7 +3,7 @@
  * *string_toupper - function that return string low to up
  *
  * @string: string
- * 
+ *
  * Return: upper
 */
 char *string_toupper(char *string)
