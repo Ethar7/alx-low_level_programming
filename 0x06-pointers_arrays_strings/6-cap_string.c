@@ -26,8 +26,8 @@ int is_delm(char c)
 	{
 		if (c == delmi[i])
 			return (1);
-		return (0);
 	}
+	return (0);
 }
 /**
  * *cap_string - function return capital string
