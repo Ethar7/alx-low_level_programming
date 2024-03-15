@@ -49,7 +49,7 @@ char *cap_string(char *ptr)
 			*ptr -= 32;
 			del = 0;
 		}
-		else 
+		else
 			del = 0;
 		ptr++;
 	}
