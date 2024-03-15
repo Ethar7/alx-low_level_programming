@@ -6,10 +6,9 @@
  *
  * Return: c
 */
-void is_lower(char c)
+int is_lower(char c)
 {
-	if (c >= 97 && c <= 122)
-		return (c);
+	return (c >= 97 && c <= 122);
 }
 /**
  * is_delm - function checks del
@@ -18,7 +17,7 @@ void is_lower(char c)
  *
  * Return: c
 */
-void is_delm(char c)
+int is_delm(char c)
 {
 	int i;
 	char delmi[] = " \t\n,.!?\"(){}";
