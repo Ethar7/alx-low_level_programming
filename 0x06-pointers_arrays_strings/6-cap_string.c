@@ -12,7 +12,7 @@ char *cap_string(char *ptr)
 
 	while (*ptr)
 	{
-		if (is_delm(*ptr)
+		if (is_delm(*ptr))
 			del = 1;
 		else if (is_lower(*ptr) && del)
 		{
