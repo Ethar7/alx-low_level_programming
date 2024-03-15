@@ -40,7 +40,7 @@ char *cap_string(char *ptr)
 {
 	int del = 1;
 	char *s = ptr;
-	
+
 	while (*ptr)
 	{
 		if (is_delm(*ptr))
@@ -50,7 +50,7 @@ char *cap_string(char *ptr)
 			*ptr -= 32;
 			del = 0;
 		}
-		else 
+		else
 			del = 0;
 		ptr++;
 	}
