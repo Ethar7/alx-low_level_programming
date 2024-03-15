@@ -1,5 +1,34 @@
 #include "main.h"
 /**
+ * is_lower - return lower case char
+ *
+ * @c: var
+ *
+ * Return: c
+*/
+int is_lower(char c)
+{
+	if (c >= 97 && c <= 122)
+		return (c);
+}
+/**
+ * is_delm - function checks del
+ *
+ * @c: var
+ *
+ * Return: c
+*/
+int is_delm(char c)
+{
+	int i;
+	char delmi[] = " \t\n,.!?\"(){}";
+
+	for (i = 0; i < 12; i++)
+		if (c == delmi[i])
+			return (1);
+		return (0);
+}
+/**
  * *cap_string - function return capital string
  *
  * @ptr: pointer to char
@@ -24,33 +53,4 @@ char *cap_string(char *ptr)
 		ptr++;
 	}
 	return (ptr);
-}
-/**
- * is_lower - return lower case char
- *
- * @c: var
- *
- * Return: c
-*/
-char is_lower(char c)
-{
-	if (c >= 97 && c <= 122)
-		return (c);
-}
-/**
- * is_delm - function checks del
- *
- * @c: var
- *
- * Return: c
-*/
-int is_delm(char c)
-{
-	int i;
-	char delmi[] = " \t\n,.!?\"(){}";
-
-	for (i = 0; i < 12; i++)
-		if (c == delmi[i])
-			return (1);
-		return (0);
 }
