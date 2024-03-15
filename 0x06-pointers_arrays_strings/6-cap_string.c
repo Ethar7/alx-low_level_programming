@@ -49,8 +49,6 @@ char *cap_string(char *ptr)
 			*ptr -= 32;
 			del = 0;
 		}
-		else
-			del = 0;
 		ptr++;
 	}
 	return (ptr);
