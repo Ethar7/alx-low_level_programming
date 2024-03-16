@@ -21,8 +21,8 @@ char *leet(char *a)
 			{
 				*a = value[i] + 48;
 			}
-			a++;
 		}
+		a++;
 	}
 	return (ap);
 }
