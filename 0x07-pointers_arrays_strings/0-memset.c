@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * *_memset - function
+ * *_memset - function that takes apointer nbytes anconst b toget b in str
  *
  * @s: pointer
  * @b: char that you put instead
