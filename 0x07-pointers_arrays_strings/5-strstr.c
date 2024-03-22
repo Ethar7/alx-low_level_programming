@@ -9,10 +9,11 @@
 */
 char *_strstr(char *haystack, char *needle)
 {
-	char *a = haystack, *b = needle;
+	char *a = haystack, *b;
 
 	for (; *haystack != '\0'; haystack++)
 	{
+		*b = needle;
 		while (*b == *a && *b != '\0')
 		{
 			a++;
