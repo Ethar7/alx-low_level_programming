@@ -12,7 +12,7 @@ int square(int n, int val);
 int _sqrt_recursion(int n)
 {
 	int val = 1;
-	
+
 	return (square(n, val));
 }
 /**
