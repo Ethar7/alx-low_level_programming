@@ -42,9 +42,6 @@ char **strtow(char *str)
 	if (num_w == 1)
 		return (NULL);
 	word = (char **)malloc(num_w * sizeof(char *));
-	if (num_w == 1)
-		return (NULL);
-	word = (char **)malloc(num_w * sizeof(char *));
 	if (word == NULL)
 		return (NULL);
 	word[num_w - 1] = NULL;
