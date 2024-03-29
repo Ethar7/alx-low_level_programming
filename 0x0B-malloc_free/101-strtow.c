@@ -51,7 +51,7 @@ char **strtow(char *str)
 	i = 0;
 	while (str[i])
 	{
-		if (str[i] != ' ' && (i == 0 || str[i - 1] != ' '))
+		if (str[i] != ' ' && (i == 0 || str[i - 1] == ' '))
 		{
 			for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 				;
@@ -67,7 +67,7 @@ char **strtow(char *str)
 				return (NULL);
 			}
 			for (l = 0; l < j; l++)
-				word[wc][l] = str[j + l];
+				word[wc][l] = str[i + l];
 			word[wc][l] = '\0';
 			wc++;
 			i += j;
