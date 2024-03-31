@@ -17,7 +17,7 @@ int word_count(char *w)
 			if (w[i + 1] != '\0' && w[i + 1] != ' ')
 				n++;
 		}
-		else if (i == 0)
+		else if (i == 0)//if the first w[i] is letter
 			n++;
 	}
 	n++;
