@@ -33,14 +33,13 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (size == 0 || nmemb == 0)
 		return (NULL);
-	m = malloc(nmemb * sizeof(int));
+	m = malloc(nmemb * size);
 
 	if (m == 0)
 	{
-		free(m);
 		return (NULL);
 	}
-	_memset(m, 0, sizeof(int) * nmemb);
+	_memset(m, 0, size * nmemb);
 	return (m);
 
 }
