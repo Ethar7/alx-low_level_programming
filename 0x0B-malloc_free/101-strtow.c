@@ -39,12 +39,12 @@ char **strtow(char *str)
 	if (str == NULL || *str == '\0')
 		return (NULL);
 	num_w = word_count(str);
-	if (num_w == 1)
+	if (num_w == 1)// it counted num_w =1 outside loop
 		return (NULL);
 	word = (char **)malloc(num_w * sizeof(char *));
 	if (word == NULL)
 		return (NULL);
-	word[num_w - 1] = NULL;
+	word[num_w - 1] = NULL;//end of string null
 	i = 0;
 	while (str[i])
 	{
@@ -54,7 +54,7 @@ char **strtow(char *str)
 				;
 			j++;
 			word[wc] = (char *)malloc(j * sizeof(char));
-			j--;
+			j--;// to adjust without null terminator
 			if (word[wc] == NULL)
 			{
 				for (h = 0; h < wc; h++)
