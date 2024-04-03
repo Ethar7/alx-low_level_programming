@@ -56,7 +56,7 @@ void pr_int(unsigned long int num)
 
 	for (i = 0; num / divisor > 9; i++, divisor *= 10)
 	;
-	
+
 	for (; divisor >= 1; num %= divisor, divisor /= 10)
 	{
 		num_ = num / divisor;
