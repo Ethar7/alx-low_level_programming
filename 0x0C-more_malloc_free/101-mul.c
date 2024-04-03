@@ -60,7 +60,7 @@ int _atoi(char *s)
 int main(int argc, char const *argv[])
 {
 	(void)argc;
-	long mult;
+	int mult;
 
 	if (argc != 3)
 	{
