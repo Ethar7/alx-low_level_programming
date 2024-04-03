@@ -50,6 +50,27 @@ int _atoi(char *s)
 	return (sign * num_b10);
 }
 /**
+ * pr_int - prints an integer
+ *
+ * @n: int
+ *
+ * Return: 0
+*/
+
+void pr_int(unsigned long int num)
+{
+	unsigned long int divisor = 1, i, num_;
+
+	for (i = 0; num / divisor > 9; i++, divisor *= 10)
+	;
+	
+	for (; divisor >= 1; num %= divisor, divisor /= 10)
+	{
+		num_ = num / divisor;
+		_putchar('0' + num_);
+	}
+}
+/**
  * main - Entery point
  *
  * @argc: 
@@ -60,14 +81,13 @@ int _atoi(char *s)
 int main(int argc, char const *argv[])
 {
 	(void)argc;
-	int mult;
 
 	if (argc != 3)
 	{
 		_puts("Error ");
 		exit(98);
 	}
-	mult = _atoi(argv[1]) * _atoi(argv[2]);
+	pr_int(_atoi(argv[1]) * _atoi(argv[2]));
 	_putchar('\n');
 	return (0);
 }
