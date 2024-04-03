@@ -52,7 +52,7 @@ int _atoi(const char *s)
 
 void pr_int(unsigned long long int num)
 {
-	unsigned long int divisor = 1, i, num_;
+	unsigned long long int divisor = 1, i, num_;
 
 	for (i = 0; num / divisor > 9; i++, divisor *= 10)
 	;
