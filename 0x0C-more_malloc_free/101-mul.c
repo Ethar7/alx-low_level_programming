@@ -23,19 +23,12 @@ void _puts(char *s)
  *
  * Return: num
 */
-int _atoi(char *s)
+int _atoi(const char *s)
 {
 	int sign = 1;
 	unsigned long int i, num, num_b10 = 0;
 
 	for (num = 0; s[i] < 48 && s[i] > 57; num++)
-	{
-		if (s[i] == '-')
-		{
-			sign *= -1;
-		}
-	}
-	for (i = num; s[i] >= 48 && s[i] <= 57; i++)
 	{
 		if (s[i] == '-')
 		{
