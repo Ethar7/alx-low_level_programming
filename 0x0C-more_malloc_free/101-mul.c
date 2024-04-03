@@ -26,7 +26,7 @@ void _puts(char *s)
 int _atoi(const char *s)
 {
 	int sign = 1;
-	unsigned long int i = 0, num, num_b10 = 0;
+	unsigned long long int i = 0, num, num_b10 = 0;
 
 	for (num = 0; s[i] < 48 && s[i] > 57; num++)
 	{
@@ -45,12 +45,12 @@ int _atoi(const char *s)
 /**
  * pr_int - prints an integer
  *
- * @n: int
+ * @num: int
  *
  * Return: 0
 */
 
-void pr_int(unsigned long int num)
+void pr_int(unsigned long long int num)
 {
 	unsigned long int divisor = 1, i, num_;
 
@@ -66,8 +66,8 @@ void pr_int(unsigned long int num)
 /**
  * main - Entery point
  *
- * @argc: 
- * @argv:
+ * @argc: int
+ * @argv: arr of char
  *
  * Return: 0
 */
@@ -77,7 +77,8 @@ int main(int argc, char const *argv[])
 
 	if (argc != 3)
 	{
-		_puts("Error ");
+		_puts("Error");
+		_putchar('\n');
 		exit(98);
 	}
 	pr_int(_atoi(argv[1]) * _atoi(argv[2]));
