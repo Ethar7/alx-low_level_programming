@@ -14,5 +14,5 @@ void _puts(char *s);
 int _putchar(char c);
 char *_memset(char *x, char y, unsigned int n);
 int _atoi(char *s);
-
+void pr_int(unsigned long int num);
 #endif
