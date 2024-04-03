@@ -26,7 +26,7 @@ void _puts(char *s)
 int _atoi(const char *s)
 {
 	int sign = 1;
-	unsigned long int i, num, num_b10 = 0;
+	unsigned long int i = 0, num, num_b10 = 0;
 
 	for (num = 0; s[i] < 48 && s[i] > 57; num++)
 	{
