@@ -42,7 +42,7 @@ void format_string(char *separator, va_list ap)
 
 	switch ((int)(!str))
 	case 1:
-		str = "(NIL)";
+		str = "(nil)";
 
 	printf("%s%s", separator, str);
 }
