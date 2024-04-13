@@ -3,7 +3,6 @@
  * delete_nodeint_at_index - deletes node at given index
  * @head: address of pointer 
  * @index: index of node
- *
  * Return: 1 or -1
 */
 
