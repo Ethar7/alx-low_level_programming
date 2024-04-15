@@ -10,10 +10,10 @@
 void print_binary(unsigned long int n)
 {
 	int bit = sizeof(n) * 8, printed = 0;
+	unsigned long int mask = 1L << --bit;
 
 	while (bit)
 	{
-		unsigned long int mask = 1L << --bit;
 		
 		if (n & mask)
 		{
