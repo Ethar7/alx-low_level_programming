@@ -7,19 +7,19 @@
  *
  * Return: The nth node of the list, or NULL.
  */
-dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index) 
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	dlistint_t *current = head;
 	unsigned int count = 0;
 
-	while (current != NULL) 
+	while (current != NULL)
 	{
-		if (count == index) 
+		if (count == index)
 		{
-			return current;
+			return (current);
 		}
 		count++;
 		current = current->next;
 	}
-	return NULL;
+	return (NULL);
 }
