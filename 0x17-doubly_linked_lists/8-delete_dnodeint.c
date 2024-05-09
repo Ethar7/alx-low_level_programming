@@ -39,7 +39,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		return -1;
 	}
 
-	*node_to_delete = current->next;
+	node_to_delete = current->next;
 	current->next = node_to_delete->next;
 
 	if (node_to_delete->next != NULL) 
